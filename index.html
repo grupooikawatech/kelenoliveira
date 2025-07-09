@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kelen Oliveira - Contabilidade, BPO e Consultoria Tributária com 17 anos de experiência. Atendimento personalizado para o crescimento do seu negócio.">
+    <meta name="keywords" content="contabilidade, BPO, consultoria tributária, abertura de empresas, mentoria empresarial">
+    <meta name="author" content="Kelen Oliveira">
+    
+    <title>Kelen Oliveira - Contabilidade e Consultoria</title>
+    
+    <!-- Preconnect para otimização -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Fontes -->
+    <link href="https://fonts.googleapis.com/css2?family=The+Seasons:wght@400;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="./logo-redonda.png">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" role="banner">
+        <nav class="nav" role="navigation" aria-label="Navegação principal">
+            <div class="nav-container">
+                <div class="logo">
+                    <img src="./logo-redonda_nome.png" alt="Kelen Oliveira - Contabilidade e Consultoria" width="60" height="60">
+                </div>
+                
+                <ul class="nav-menu" id="nav-menu">
+                    <li><a href="#inicio" class="nav-link">Início</a></li>
+                    <li><a href="#sobre" class="nav-link">Sobre</a></li>
+                    <li><a href="#servicos" class="nav-link">Serviços</a></li>
+                    <li><a href="#cases" class="nav-link">Cases de Sucesso</a></li>
+                    <li><a href="#compromisso" class="nav-link">Meu Compromisso</a></li>
+                    <li><a href="#contato" class="nav-link">Contato</a></li>
+                </ul>
+                    
+                </button>
+                <a href="http://wa.me/5583981959315" class="cta-button" target="_blank" rel="noopener noreferrer" aria-label="Falar com Kelen Oliveira pelo WhatsApp">
+                    <i class="fab fa-whatsapp" aria-hidden="true"></i>
+                    Falar Comigo
+                </a>
+                
+                <button class="hamburger" id="hamburger" aria-label="Menu de navegação" aria-expanded="false">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="inicio" class="hero" aria-labelledby="hero-title">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <h1 id="hero-title" class="hero-title">
+                        Organizo, simplifico e cuido da rotina do seu negócio para que você possa 
+                        <span class="highlight">crescer com mais tranquilidade</span>
+                    </h1>
+                    <p class="hero-subtitle">
+                        Contabilidade, BPO completo e Consultoria Tributária com atenção, clareza e compromisso com o seu sucesso.
+                    </p>
+                    <div class="hero-buttons">
+                        <button class="btn-primary" onclick="scrollToContact()">
+                            Vamos Conversar
+                        </button>
+                        <button class="btn-secondary" onclick="scrollToServices()">
+                            Conheça os Serviços
+                        </button>
+                    </div>
+                    
+                    <!-- Floating Cards -->
+                    <div class="floating-cards">
+                    </div>
+                </div>
+                
+                <div class="hero-visual">
+                    <img src="./logo-redonda.png" alt="Logo Kelen Oliveira" width="400" height="400">
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="sobre" class="about" aria-labelledby="about-title">
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-text">
+                        <h2 id="about-title" class="section-title">Quem sou eu</h2>
+                        <div class="about-description">
+                            <p>
+                                Oi! Eu sou a <strong>Kelen de Oliveira</strong>, contadora com 17 anos de experiência em contabilidade terceirizada, atuando com empresas de diferentes portes e segmentos.
+                            </p>
+                            <p>
+                                Ao longo dessa caminhada, acompanhei de perto os desafios de quem empreende e aprendi que oferecer um bom serviço contábil vai muito além de entregar obrigações no prazo. Meu trabalho é dar suporte real ao empresário — com organização, clareza e estratégia.
+                            </p>
+                            <p>
+                                Hoje, ofereço soluções completas em contabilidade, BPO (financeiro, fiscal e trabalhista) e consultoria estratégica e tributária, com foco em ajudar você a tomar decisões mais seguras e ter mais tranquilidade para crescer.
+                            </p>
+                            <p>
+                                Sou apaixonada por transformar a rotina dos meus clientes, simplificando o que parece complexo e entregando um atendimento próximo, humano e comprometido.
+                            </p>
+                            <p>
+                                Ao escolher meu serviço, você não está contratando apenas um software ou uma plataforma digital — está garantindo um atendimento humano, consultivo e personalizado. Eu trabalho lado a lado com você, entendendo sua realidade, antecipando desafios e oferecendo soluções que só a experiência e o contato direto podem proporcionar.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="about-image">
+                        <div class="image-container">
+                            <img src="./kelen_foto_profissional.jpg" alt="Kelen Oliveira - Foto profissional" width="300" height="300">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="servicos" class="services" aria-labelledby="services-title">
+            <div class="container">
+                <h2 id="services-title" class="section-title">Como posso te ajudar</h2>
+                <div class="services-grid">
+                    <article class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-briefcase" aria-hidden="true"></i>
+                        </div>
+                        <h3>BPO Completo</h3>
+                        <p>Assumo a operação da sua empresa em três frentes:</p>
+                        <ul>
+                            <li><strong>Financeira:</strong> contas a pagar, receber, emissão de boletos, conciliações e relatórios.</li>
+                            <li><strong>Fiscal:</strong> emissão de notas, apuração de impostos e obrigações acessórias.</li>
+                            <li><strong>Trabalhista:</strong> folha de pagamento, admissões, férias, rescisões e obrigações legais.</li>
+                        </ul>
+                        <p>Tudo isso com processos claros, comunicação simples e foco na eficiência.</p>
+                    </article>
+
+                    <article class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-chart-bar" aria-hidden="true"></i>
+                        </div>
+                        <h3>Contabilidade Completa</h3>
+                        <p>Realizo toda a escrituração contábil, fiscal e trabalhista da sua empresa, com responsabilidade, transparência e agilidade.</p>
+                    </article>
+
+                    <article class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-brain" aria-hidden="true"></i>
+                        </div>
+                        <h3>Consultoria Estratégica e Tributária</h3>
+                        <p>Ofereço orientação personalizada para que você pague menos impostos de forma legal, entenda melhor seus resultados e tome decisões mais seguras.</p>
+                        <p>Minha consultoria combina análise tributária, contábil e financeira, sempre alinhada aos seus objetivos.</p>
+                    </article>
+
+                    <article class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-building" aria-hidden="true"></i>
+                        </div>
+                        <h3>Abertura de Empresas</h3>
+                        <p>Se você está pensando em começar seu próprio negócio, eu te acompanho desde o primeiro passo.</p>
+                        <p>Ofereço um serviço completo de abertura de empresas, cuidando de toda a documentação, registro na Junta Comercial, obtenção de CNPJ, alvarás e licenças necessárias.</p>
+                        <p>Trabalho para que todo o processo seja feito com agilidade e segurança, sempre mantendo você informado.</p>
+                    </article>
+
+                    <article class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-graduation-cap" aria-hidden="true"></i>
+                        </div>
+                        <h3>Treinamentos</h3>
+                        <p><strong>Capacitação prática para sua equipe</strong></p>
+                        <p>Treinamentos personalizados para equipes administrativas, contábeis e financeiras, com foco em processos, rotinas e organização.</p>
+                        <div class="service-details">
+                            <h4>Formatos:</h4>
+                            <ul>
+                                <li>In Company (presencial ou online)</li>
+                                <li>Workshops e aulas técnicas</li>
+                            </ul>
+                            <h4>Temas principais:</h4>
+                            <ul>
+                                <li>Simples Nacional</li>
+                                <li>BPO Financeiro</li>
+                                <li>Gestão e rotina administrativa</li>
+                                <li>Reforma Tributária descomplicada</li>
+                            </ul>
+                        </div>
+                    </article>
+
+                    <article class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-user-tie" aria-hidden="true"></i>
+                        </div>
+                        <h3>Mentoria</h3>
+                        <p><strong>Direcionamento estratégico para empresários</strong></p>
+                        <p>Mentorias individuais para quem busca clareza na gestão financeira, fiscal e operacional do negócio.</p>
+                        <div class="service-details">
+                            <h4>Benefícios:</h4>
+                            <ul>
+                                <li>Apoio na tomada de decisões</li>
+                                <li>Organização de processos</li>
+                                <li>Entendimento dos números do negócio</li>
+                                <li>Estratégias práticas para crescimento</li>
+                            </ul>
+                            <h4>Formato:</h4>
+                            <p>Encontros online, com temas personalizados conforme sua realidade.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Cases Section -->
+        <section id="cases" class="cases" aria-labelledby="cases-title">
+            <div class="container">
+                <h2 id="cases-title" class="section-title">Cases de Sucesso</h2>
+                <div class="cases-grid">
+                    <article class="case-card">
+                        <h3>Case de Sucesso: Mais de R$ 2 Milhões recuperados e creditados na conta da empresa</h3>
+                        
+                        <div class="case-section">
+                            <h4 class="case-subtitle">🔍 O Desafio</h4>
+                            <p>Um cliente do varejo vinha pagando PIS e COFINS indevidamente por anos, sem saber que tinha direito a créditos acumulados. Focado no dia a dia do comércio, ele nunca havia analisado a fundo a apuração fiscal — e por isso deixava esse valor passar despercebido.</p>
+                        </div>
+
+                        <div class="case-section">
+                            <h4 class="case-subtitle">✅ A Solução</h4>
+                            <ul>
+                                <li>Realizei um diagnóstico tributário completo, revisando a apuração e os documentos fiscais da empresa.</li>
+                                <li>Identifiquei créditos não aproveitados e preparei o pedido de recuperação junto à Receita Federal, comprovando o direito do cliente com total segurança.</li>
+                            </ul>
+                        </div>
+
+                        <div class="case-section">
+                            <h4 class="case-subtitle">📈 Os Resultados</h4>
+                            <ul>
+                                <li>Um ano depois do processo, a restituição foi liberada e o valor caiu diretamente na conta da empresa, somando mais de R$ 2.000.000,00 em PIS e COFINS pagos a maior.</li>
+                                <li>Apuração fiscal reorganizada para evitar novos pagamentos indevidos.</li>
+                                <li>Mais recursos disponíveis no caixa, que foram reinvestidos em crescimento e novos projetos.</li>
+                            </ul>
+                        </div>
+
+                        <blockquote class="case-testimonial">
+                            <p>"Com a ajuda da Kelen, conseguimos reaver um valor que nunca imaginávamos. Quando o dinheiro caiu na conta foi uma alegria enorme! Foi um divisor de águas para o nosso negócio."</p>
+                        </blockquote>
+                    </article>
+
+                    <article class="case-card">
+                        <h3>Case de Sucesso: Auditoria contábil corrige erros e gera economia para empresa do comércio</h3>
+                        
+                        <div class="case-section">
+                            <h4 class="case-subtitle">🔍 O Desafio</h4>
+                            <p>Uma empresa do comércio vinha apurando seus impostos com base em dados desorganizados e inconsistentes. Por conta disso, pagava alguns tributos a maior e outros a menor, colocando o negócio em risco.</p>
+                        </div>
+
+                        <div class="case-section">
+                            <h4 class="case-subtitle">✅ A Solução</h4>
+                            <ul>
+                                <li>Realizei uma auditoria contábil completa, revisando detalhadamente lançamentos, conciliações e a apuração fiscal.</li>
+                                <li>Identifiquei erros cometidos pelo responsável anterior e corrigi os lançamentos, ajustei os processos internos e regularizei a apuração fiscal da empresa.</li>
+                            </ul>
+                        </div>
+
+                        <div class="case-section">
+                            <h4 class="case-subtitle">📈 Os Resultados</h4>
+                            <ul>
+                                <li>Redução significativa da carga tributária, eliminando o pagamento indevido e ajustando os valores que estavam sendo recolhidos a menor.</li>
+                                <li>Processos internos reorganizados, com relatórios claros e apuração correta a cada fechamento.</li>
+                                <li>Maior segurança e previsibilidade para o fluxo de caixa e para a tomada de decisões.</li>
+                            </ul>
+                        </div>
+
+                        <blockquote class="case-testimonial">
+                            <p>"A Kelen conseguiu enxergar o que nunca tínhamos percebido. Ela corrigiu erros antigos, eliminou gastos desnecessários e nos deu mais tranquilidade para focar no crescimento da empresa."</p>
+                        </blockquote>
+                    </article>
+
+                    <article class="case-card">
+                        <h3>Case de Sucesso: Organização interna e implantação de POPs elevam a produtividade da empresa de serviços médicos</h3>
+                        
+                        <div class="case-section">
+                            <h4 class="case-subtitle">🔍 O Desafio</h4>
+                            <p>Uma empresa da área de serviços médicos enfrentava problemas com a desorganização nos processos internos. Cada profissional executava as rotinas "do seu próprio jeito", sem padronização definida.</p>
+                        </div>
+
+                        <div class="case-section">
+                            <h4 class="case-subtitle">✅ A Solução</h4>
+                            <ul>
+                                <li>Mapeei todos os processos operacionais e administrativos e elaborei Procedimentos Operacionais Padrão (POPs) para as principais rotinas.</li>
+                                <li>Realizei treinamentos para garantir que todos entendessem o novo fluxo e soubessem exatamente o que, quando e como fazer cada etapa.</li>
+                            </ul>
+                        </div>
+
+                        <div class="case-section">
+                            <h4 class="case-subtitle">📈 Os Resultados</h4>
+                            <ul>
+                                <li>Processos padronizados e bem definidos, eliminando inconsistências e retrabalhos.</li>
+                                <li>Comunicação entre os setores mais clara e assertiva.</li>
+                                <li>Aumento da produtividade e da qualidade do serviço, com a equipe mais segura e alinhada.</li>
+                                <li>Redução de custos operacionais e maior agilidade para o crescimento do negócio.</li>
+                            </ul>
+                        </div>
+
+                        <blockquote class="case-testimonial">
+                            <p>"Os POPs que a Kelen implementou foram um divisor de águas para a nossa empresa. A equipe ficou mais organizada, os processos mais rápidos e conseguimos oferecer um atendimento muito melhor aos nossos pacientes."</p>
+                        </blockquote>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Choose Me Section -->
+        <section class="why-choose" aria-labelledby="why-choose-title">
+            <div class="container">
+                <h2 id="why-choose-title" class="section-title">Por que trabalhar comigo</h2>
+                <div class="benefits-grid">
+                    <div class="benefit-item">
+                        <i class="fas fa-comments" aria-hidden="true"></i>
+                        <span>Parceria personalizada e focada no que realmente importa para o seu negócio</span>
+                    </div>
+                    <div class="benefit-item">
+                        <i class="fas fa-lightbulb" aria-hidden="true"></i>
+                        <span>Clareza na comunicação e foco em soluções práticas</span>
+                    </div>
+                    <div class="benefit-item">
+                        <i class="fas fa-laptop" aria-hidden="true"></i>
+                        <span>Processos digitais que facilitam sua rotina</span>
+                    </div>
+                    <div class="benefit-item">
+                        <i class="fas fa-heart" aria-hidden="true"></i>
+                        <span>Olhar estratégico e humano para o seu negócio</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Commitment Section -->
+        <section id="compromisso" class="commitment" aria-labelledby="commitment-title">
+            <div class="container">
+                <h2 id="commitment-title" class="section-title">Meu compromisso com você</h2>
+                <div class="commitment-content">
+                    <p>
+                        Eu não estou aqui para criar expectativas falsas ou prometer resultados milagrosos.
+                        Prezo pela transparência em cada etapa do serviço que ofereço, com informações claras e honestidade sobre prazos, custos e desafios.
+                    </p>
+                    <p>
+                        Meu compromisso é entregar um trabalho sério, com qualidade técnica e atendimento próximo, para que você tenha segurança e confiança em todas as decisões que precisarmos tomar juntos.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contato" class="contact" aria-labelledby="contact-title">
+            <div class="container">
+                <div class="contact-content">
+                    <h2 id="contact-title" class="section-title">Vamos conversar?</h2>
+                    <p class="contact-description">
+                        Se você precisa de apoio para organizar sua empresa, entender melhor seus números ou crescer com mais segurança, estou pronta para te ajudar.
+                    </p>
+                    <a href="http://wa.me/5583981959315" class="btn-primary large" target="_blank" rel="noopener noreferrer" aria-label="Falar com Kelen Oliveira pelo WhatsApp">
+                        <i class="fab fa-whatsapp" aria-hidden="true"></i>
+                        Clique aqui para falar comigo
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="./logo-redonda.png" alt="Kelen Oliveira Logo" width="50" height="50">
+                    <div class="footer-info">
+                        <p>contato@kelenoliveira.com.br</p>
+                        <p>Contabilidade e Consultoria</p>
+                    </div>
+                </div>
+                <div class="footer-copyright">
+                    <p>&copy; 2025 Kelen Oliveira. Todos os direitos reservados.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
+
